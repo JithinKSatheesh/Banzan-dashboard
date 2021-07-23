@@ -8,6 +8,8 @@ import SideBar from './Components/SideBar'
 import Home from './Components/Overview'
 import Growth from './Components/Growth'
 import Resource from './Components/Resource'
+import Timeline from './Components/Timeline'
+import Manage from './Components/Manage';
 
 import { Space } from './Components/Utils';
 import './App.css';
@@ -50,6 +52,8 @@ function App() {
               <Switch>
                 <Route path='/growth' component={Growth} />
                 <Route path='/resource' component={Resource} />
+                <Route path='/timeline' component={Timeline} />
+                <Route path='/manage' component={Manage} />
                 <Route path='/' component={Home} />
               </Switch>
 

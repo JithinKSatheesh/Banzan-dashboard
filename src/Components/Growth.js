@@ -63,6 +63,7 @@ export default function Growth(props) {
                         sheet : 'Numzy'
                     }}
                     options={{
+                        colors:['#7142db','#61d7a1','#7ccdf9'],
                         hAxis: {
                             
                         },
@@ -96,6 +97,7 @@ export default function Growth(props) {
                         sheet : 'Numzy'
                     }}
                     options={{
+                        colors:['#7ccdf9','#7142db','#61d7a1'],
                         hAxis: {
                             
                         },
@@ -130,10 +132,11 @@ export default function Growth(props) {
                     spreadSheetUrl="https://docs.google.com/spreadsheets/d/10E37Oi6bAc_a0iT1BYHr62FpwdLQGKP0ILvHLptlbV8"
                     spreadSheetQueryParameters={{
                         headers: 1,
-                        query: 'SELECT A, B , C, E',
+                        query: 'SELECT A, B , C',
                         sheet : 'Yes_or_No'
                     }}
                     options={{
+                        colors:['#7142db','#61d7a1','#7ccdf9'],
                         hAxis: {
                             
                         },
@@ -165,6 +168,7 @@ export default function Growth(props) {
                         sheet : 'Yes_or_No'
                     }}
                     options={{
+                        colors:['#7ccdf9','#7142db','#61d7a1'],
                         hAxis: {
                             
                         },
@@ -197,10 +201,11 @@ export default function Growth(props) {
                     spreadSheetUrl="https://docs.google.com/spreadsheets/d/10E37Oi6bAc_a0iT1BYHr62FpwdLQGKP0ILvHLptlbV8"
                     spreadSheetQueryParameters={{
                         headers: 1,
-                        query: 'SELECT A, B , C, E',
+                        query: 'SELECT A, B , C',
                         sheet : 'TymPass With BaBlah'
                     }}
                     options={{
+                        colors:['#7142db','#61d7a1','#7ccdf9'],
                         hAxis: {
                             
                         },
@@ -261,7 +266,7 @@ export default function Growth(props) {
                     spreadSheetQueryParameters={{
                         headers: 1,
                         query: 'SELECT A, B , C',
-                        sheet : 'TargetGrowth'
+                        sheet : 'Manage'
                     }}
                     options={{
                         hAxis: {

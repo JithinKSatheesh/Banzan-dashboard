@@ -36,7 +36,7 @@ export default function Home(props) {
 
     return (
         <>
-            <ChartContainer maxWidth={900} >
+            <ChartContainer maxWidth={1000} >
                 <ChartTitle>
                     Total Followers
                 </ChartTitle>
@@ -51,6 +51,7 @@ export default function Home(props) {
                         sheet: 'Master Graph'
                     }}
                     options={{
+                        colors:['#7142db','#61d7a1','#f39564'],
                         hAxis: {
 
                         },
@@ -85,6 +86,7 @@ export default function Home(props) {
                         sheet: 'Master Graph'
                     }}
                     options={{
+                        colors:['#ed4b7c'],
                         hAxis: {
 
                         },
@@ -118,6 +120,7 @@ export default function Home(props) {
                         sheet: 'Master Graph'
                     }}
                     options={{
+                        colors:['#7ccdf9'],
                         hAxis: {
 
                         },

@@ -3,6 +3,7 @@ import React from 'react'
 // import RoboChart from '@postlight/react-google-sheet-to-chart';
 import styled from 'styled-components';
 import Chart from "react-google-charts";
+import { Space } from './Utils';
 
 
 
@@ -25,7 +26,7 @@ const ChartTitle = styled.div`
 
 `
 
-export default function Resource(props) {
+export default function Manage(props) {
 
 
     return (
@@ -37,7 +38,7 @@ export default function Resource(props) {
 
             <ChartContainer maxWidth={1000} >
                 <ChartTitle>
-                    Total Budget
+                   Comic Buffer
                 </ChartTitle>
                 <Chart
                     width={'100%'}
@@ -46,18 +47,18 @@ export default function Resource(props) {
                     spreadSheetUrl="https://docs.google.com/spreadsheets/d/10E37Oi6bAc_a0iT1BYHr62FpwdLQGKP0ILvHLptlbV8"
                     spreadSheetQueryParameters={{
                         headers: 1,
-                        query: 'SELECT G, H, I',
-                        sheet: 'Resources'
+                        query: 'SELECT E, F , G',
+                        sheet: 'Manage'
                     }}
                     options={{
                         pieSliceText: 'value',
                         bars: 'vertical',
-                        colors:['#7142db','#a5a6ab'],
+                        colors:['#c4c4c8','#7142db'],
                         hAxis: {
                             minValue: 0,
                         },
                         vAxis: {
-
+                            format : 'short'
                         },
                     }}
 
@@ -67,80 +68,40 @@ export default function Resource(props) {
             </ChartContainer>
 
 
-            {/* =========================== */}
-            {/* =========================== */}
-            {/* =========================== */}
-            
-            <ChartContainer maxWidth={500} >
+
+            <ChartContainer maxWidth={500}>
                 <ChartTitle>
-                    Budget allocation
+                Useful reference Links
                 </ChartTitle>
+                <Space />
                 <Chart
                     width={'100%'}
-                    height={400}
-                    chartType="PieChart"
+                    // height={300}
+                    chartType="Table"
                     spreadSheetUrl="https://docs.google.com/spreadsheets/d/10E37Oi6bAc_a0iT1BYHr62FpwdLQGKP0ILvHLptlbV8"
                     spreadSheetQueryParameters={{
                         headers: 1,
-                        query: 'SELECT A, B',
-                        sheet: 'Resources'
+                        query: 'SELECT J, K',
+                        sheet : 'Manage'
                     }}
                     options={{
-                        pieSliceText: 'value',
-                        colors:['#a5a6ab','#7ccdf9','#7142db'],
                         hAxis: {
-
+                            
                         },
                         vAxis: {
-
+                           
+                        
                         },
                     }}
-
-                    rootProps={{ 'data-testid': '1' }}
+                
+                    rootProps={{ 'data-testid': '2' }}
+                    
                 />
-
             </ChartContainer>
 
 
-            {/* =========================== */}
-            {/* =========================== */}
-            {/* =========================== */}
-
-            <ChartContainer maxWidth={500} >
-                <ChartTitle>
-                    Budget Quota
-                </ChartTitle>
-                <Chart
-                    width={'100%'}
-                    height={400}
-                    chartType="ColumnChart"
-                    spreadSheetUrl="https://docs.google.com/spreadsheets/d/10E37Oi6bAc_a0iT1BYHr62FpwdLQGKP0ILvHLptlbV8"
-                    spreadSheetQueryParameters={{
-                        headers: 1,
-                        query: 'SELECT A, B, C',
-                        sheet: 'Resources'
-                    }}
-                    options={{
-                        pieSliceText: 'value',
-                        bars: 'vertical',
-                        colors:['#7142db','#ed4b7c','#61d275'],
-                        hAxis: {
-
-                        },
-                        vAxis: {
-
-                        },
-                    }}
-
-                    rootProps={{ 'data-testid': '1' }}
-                />
-
-            </ChartContainer>
 
 
-            {/* =========================== */}
-            {/* =========================== */}
-            {/* =========================== */}
 
         </>
     )
