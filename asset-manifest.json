@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Banzan-dashboard/static/css/main.a03c00e6.chunk.css",
+    "main.js": "/Banzan-dashboard/static/js/main.7e417b8a.chunk.js",
+    "main.js.map": "/Banzan-dashboard/static/js/main.7e417b8a.chunk.js.map",
+    "runtime-main.js": "/Banzan-dashboard/static/js/runtime-main.8de583be.js",
+    "runtime-main.js.map": "/Banzan-dashboard/static/js/runtime-main.8de583be.js.map",
+    "static/js/2.5e4a7c3a.chunk.js": "/Banzan-dashboard/static/js/2.5e4a7c3a.chunk.js",
+    "static/js/2.5e4a7c3a.chunk.js.map": "/Banzan-dashboard/static/js/2.5e4a7c3a.chunk.js.map",
+    "static/js/3.eedc882f.chunk.js": "/Banzan-dashboard/static/js/3.eedc882f.chunk.js",
+    "static/js/3.eedc882f.chunk.js.map": "/Banzan-dashboard/static/js/3.eedc882f.chunk.js.map",
+    "index.html": "/Banzan-dashboard/index.html",
+    "static/css/main.a03c00e6.chunk.css.map": "/Banzan-dashboard/static/css/main.a03c00e6.chunk.css.map",
+    "static/js/2.5e4a7c3a.chunk.js.LICENSE.txt": "/Banzan-dashboard/static/js/2.5e4a7c3a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8de583be.js",
+    "static/js/2.5e4a7c3a.chunk.js",
+    "static/css/main.a03c00e6.chunk.css",
+    "static/js/main.7e417b8a.chunk.js"
+  ]
+}
